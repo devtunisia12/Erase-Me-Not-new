@@ -1,0 +1,5366 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Game_32Scene",
+  "name": "Game Scene",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.18305734955561095,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "embedded-game"
+  },
+  "objectsGroups": [
+    {
+      "name": "MonsterVisionObstacles",
+      "objects": []
+    }
+  ],
+  "variables": [
+    {
+      "name": "CamX",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "CamY",
+      "type": "number",
+      "value": 90
+    },
+    {
+      "name": "CamFOV",
+      "type": "number",
+      "value": 45
+    },
+    {
+      "name": "Variable",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "SpeedPlayer",
+      "type": "number",
+      "value": 200
+    },
+    {
+      "name": "Variable2",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "reloadstate",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "shotstate",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Variable3",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ammo",
+      "type": "number",
+      "value": 10
+    }
+  ],
+  "instances": [
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "86c1e4cd-7644-46c4-86cb-a6417be1c620",
+      "width": 8.000002781549979,
+      "x": 1024,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "0bbf1ee8-abaa-4e76-8753-405701095211",
+      "width": 8.000002781549979,
+      "x": 864,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "8b70d151-8e3c-49c9-b9fa-4aa37aea282d",
+      "width": 8.000002781549979,
+      "x": 704,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6482cad8-9fff-4188-ba84-56099db4c12f",
+      "width": 8.000002781549979,
+      "x": 1119,
+      "y": 871,
+      "z": 13,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "2237a2d8-463e-497c-9f78-b3223246f65f",
+      "width": 8.000002781549979,
+      "x": 320,
+      "y": 800,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 976,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "557906d2-93e8-4e95-9369-55dccb26737a",
+      "width": 8.000002781549979,
+      "x": 1593,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "c35b91ca-f017-4c50-8daa-cdbc718c546d",
+      "width": 8.000002781549979,
+      "x": 320,
+      "y": 928,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "ad317149-94d7-4883-8a77-383095664cf2",
+      "width": 8.000002781549979,
+      "x": 320,
+      "y": 1088,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 249,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "4af3b397-af6e-45b3-9b07-4c200e69000e",
+      "width": 8,
+      "x": 640,
+      "y": 864,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 23,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "30549681-7431-4843-960a-fc0dea2b74e9",
+      "width": 8.000002781549979,
+      "x": 640,
+      "y": 1113,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 79,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "67e95832-871e-4134-8b37-bb57a6fdd888",
+      "width": 8.000002781549979,
+      "x": 352,
+      "y": 1120,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 249,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "b556ffcf-c811-4447-9a7a-d60f23928604",
+      "width": 8.000002781549979,
+      "x": 512,
+      "y": 1120,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "21cef7f1-7ca3-407f-878f-3c5cc4e3f9bf",
+      "width": 8.000002781549979,
+      "x": 352,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "b3eee67f-4551-4a46-b127-7be28647036b",
+      "width": 8.000002781549979,
+      "x": 672,
+      "y": 832,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 454,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6bf92e6a-6bdd-4865-a7c5-f1da164fa8ca",
+      "width": 8.000002781549979,
+      "x": 1012,
+      "y": 1152,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 308,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "7bfdda10-6ee4-49de-a360-13e321d24b5d",
+      "width": 8.000002781549979,
+      "x": 1050,
+      "y": 1308,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 73.99999775772997,
+      "layer": "",
+      "name": "InternalDoor",
+      "persistentUuid": "b4b54e12-a5f3-44c1-b9c2-d1bf1b76d742",
+      "width": 20.000000908261296,
+      "x": 640,
+      "y": 992,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 160.00001271565657,
+      "layer": "",
+      "name": "Wall_Doorway_Square",
+      "persistentUuid": "3aeca492-1c38-4f91-adfb-be3e1a55206c",
+      "width": 16.000012715656993,
+      "x": 640,
+      "y": 1024,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 357,
+      "customSize": true,
+      "depth": 8,
+      "height": 12292,
+      "layer": "",
+      "name": "Floor",
+      "persistentUuid": "96a1132d-9a06-4122-ad14-890badffb0a0",
+      "width": 4101,
+      "x": 1358,
+      "y": 389,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3a1fe52e-5ee9-41e6-8a9f-ec2da2cc8f69",
+      "width": 8.000002781549979,
+      "x": 320,
+      "y": 1248,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "cca90615-ae9d-4573-985f-9eac99687cd5",
+      "width": 8.000002781549979,
+      "x": 320,
+      "y": 1408,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 100.60473266610533,
+      "layer": "",
+      "name": "Barricade_Doorway_C",
+      "persistentUuid": "53ad8bfd-3546-4f97-8b31-9932771bd925",
+      "width": 8.012829870230794,
+      "x": 1120,
+      "y": 1088,
+      "z": 200,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 145,
+      "height": 117,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "0f7549b3-8071-4dfc-8510-31efcaccb53f",
+      "rotationX": 90,
+      "width": 8.000002781549979,
+      "x": 640,
+      "y": 1125,
+      "z": 242,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 21,
+      "customSize": true,
+      "depth": 300,
+      "height": 509,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "2d00e8ab-4240-4c9c-b434-f2964da6415b",
+      "width": 8.000002781549979,
+      "x": 2563,
+      "y": -417,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 630,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "4469dbb0-9339-4c6a-8fcb-4155ae45ba48",
+      "width": 8.000002781549979,
+      "x": 2079,
+      "y": 1135,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 24,
+      "customSize": true,
+      "depth": 300,
+      "height": 668,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "eac706c4-906f-4a26-a4e9-8c097c2f72ab",
+      "width": 8.000002781549979,
+      "x": 2322,
+      "y": -475,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 1706,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3643b3c9-2fd7-4f19-9acb-f33682ccbf11",
+      "width": 8.000002781549979,
+      "x": 1236,
+      "y": 1452,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 160.00001271565657,
+      "layer": "",
+      "name": "Wall_Doorway_Square",
+      "persistentUuid": "09c2b424-d900-4c39-988c-647f4a159e2c",
+      "width": 16.000012715656993,
+      "x": 2344,
+      "y": -161,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 159.99999364217152,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "6e37e716-72e1-47b3-a83a-7425b02d59ce",
+      "width": 8.000002781549979,
+      "x": 2497,
+      "y": -160,
+      "z": 8,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 160.00001271565657,
+      "layer": "",
+      "name": "Wall_Doorway_Square",
+      "persistentUuid": "244be18b-d2cd-4157-aeb8-66547480eb45",
+      "width": 16.000012715656993,
+      "x": 640,
+      "y": 1024,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 160.00001271565657,
+      "layer": "",
+      "name": "Wall_Doorway_Square",
+      "persistentUuid": "9ea0d3ea-b580-4e4a-b3f5-22fe4772c72c",
+      "width": 16.000012715656993,
+      "x": 640,
+      "y": 1024,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 160.00001271565657,
+      "layer": "",
+      "name": "Wall_Doorway_Square",
+      "persistentUuid": "4cbed8df-3886-40a2-b12c-99f191b2c1d3",
+      "width": 16.000012715656993,
+      "x": 650,
+      "y": 1034,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 41,
+      "height": 36,
+      "layer": "",
+      "name": "Lamp_Round_Floor",
+      "persistentUuid": "da7dfc02-214e-46a0-aa52-dccf4edf3ceb",
+      "rotationY": 17,
+      "width": 42,
+      "x": 638,
+      "y": 876,
+      "z": 122,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 187,
+      "customSize": true,
+      "depth": 16,
+      "height": 2,
+      "layer": "",
+      "name": "lamp_light",
+      "persistentUuid": "2fe98e6d-38b7-4194-b0c2-9309a316866b",
+      "rotationX": 9,
+      "rotationY": 14,
+      "width": 2,
+      "x": 781,
+      "y": 862,
+      "z": 165,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1793,
+      "height": 900,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "3c9d0c2a-83fa-4a70-9b99-404570a45f33",
+      "rotationX": 180,
+      "rotationY": 90,
+      "width": 9,
+      "x": 269,
+      "y": 1130,
+      "z": 285,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 100.60473266610533,
+      "layer": "",
+      "name": "Barricade_Doorway_C",
+      "persistentUuid": "c093700c-5238-4ee2-a45c-8e3c16dfbbc3",
+      "width": 8.012829870230794,
+      "x": 1134,
+      "y": 1105,
+      "z": 61,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 300,
+      "height": 79,
+      "layer": "",
+      "name": "Wall",
+      "persistentUuid": "7f5f43fa-b1ad-4280-be72-9228204d7522",
+      "width": 8.000002781549979,
+      "x": 362,
+      "y": 1453,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 232,
+      "customSize": true,
+      "depth": 170,
+      "height": 170,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "d7d67c71-bdc9-47d8-90ff-251e55feac35",
+      "width": 30,
+      "x": 1297,
+      "y": -428,
+      "z": 21,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 1,
+      "layer": "",
+      "name": "HeadPOS",
+      "persistentUuid": "fe7c4cba-00c1-42cc-a06b-7b75315f8de8",
+      "width": 1,
+      "x": 1536,
+      "y": 1227,
+      "z": 5.1427040288016785,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 149,
+      "customSize": true,
+      "depth": 150,
+      "height": 96,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "8329bf1f-f7ac-43d9-a7ba-e6b5c7f8ea14",
+      "width": 148,
+      "x": 1489,
+      "y": -28,
+      "z": 8,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 84,
+      "height": 72,
+      "layer": "",
+      "name": "Crate",
+      "persistentUuid": "0b1c0e63-7baf-42b5-838c-7e3f01c517ad",
+      "width": 71,
+      "x": 1624,
+      "y": 1234,
+      "z": 50,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 274,
+      "customSize": false,
+      "height": 100.60473266610533,
+      "layer": "",
+      "name": "Barricade_Doorway_C",
+      "persistentUuid": "09e53b6d-93d7-47db-9452-524893a79b1b",
+      "rotationX": 319,
+      "rotationY": 4,
+      "width": 8.012829870230794,
+      "x": 699,
+      "y": 1125,
+      "z": 244,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 274,
+      "customSize": false,
+      "height": 100.60473266610533,
+      "layer": "",
+      "name": "Barricade_Doorway_C",
+      "persistentUuid": "40cf6961-af68-4e87-9de9-4368a841102b",
+      "rotationX": 319,
+      "rotationY": 4,
+      "width": 8.012829870230794,
+      "x": 707,
+      "y": 1135,
+      "z": 100,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 274,
+      "height": 61,
+      "layer": "",
+      "name": "PathfindingObstacle",
+      "persistentUuid": "b5d80514-be60-44ee-b828-77a7dae822fe",
+      "width": 1452,
+      "x": 607,
+      "y": 801,
+      "z": 10,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 274,
+      "height": 61,
+      "layer": "",
+      "name": "PathfindingObstacle",
+      "persistentUuid": "d9c3a7ac-3c84-4966-9f90-8db44272cb90",
+      "width": 1704,
+      "x": 350,
+      "y": 1430,
+      "z": 10,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 100,
+      "layer": "",
+      "name": "PathfindingObstacle",
+      "persistentUuid": "a9d420dd-55c9-4973-88f0-f047e37bd038",
+      "width": 100,
+      "x": 612,
+      "y": 981,
+      "z": 57,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 313,
+      "height": 684,
+      "keepRatio": true,
+      "layer": "Gun",
+      "name": "Gun",
+      "persistentUuid": "fa5f30d3-13ee-4a0f-a4bb-10f1620ce660",
+      "width": 1593,
+      "x": 608,
+      "y": 1067,
+      "z": 500,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "shair",
+      "locked": true,
+      "name": "CrossShair",
+      "persistentUuid": "9be5a85a-70cc-49d7-a7a4-67216f506a23",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 149,
+      "customSize": true,
+      "depth": 150,
+      "height": 96,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "a5219fb2-94f4-482f-bcd5-e804c5409585",
+      "width": 148,
+      "x": 1499,
+      "y": -18,
+      "z": 8,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Box",
+      "persistentUuid": "51aaaf41-bbb1-4c12-bb47-ae948d8790ca",
+      "width": 0,
+      "x": 1498,
+      "y": -70,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 76.38191182868744,
+      "layer": "",
+      "name": "New3DModel",
+      "persistentUuid": "71a3b9a1-4e09-4269-8934-ed4535ec5fc0",
+      "width": 100,
+      "x": 1856,
+      "y": -30,
+      "z": -372,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "5145005bf545fca26317cae9ed244fbf95f38a4242ca09f20f7a04e2de71fe05",
+      "name": "Monster",
+      "persistentUuid": "49e3a38f-1d1c-4527-bb5b-ed9d6bded638",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Chasing"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 16,
+          "cellWidth": 16,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 80,
+          "rotateObject": true,
+          "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "shape": "Capsule",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 15,
+          "density": 40,
+          "friction": 1,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 100,
+        "height": 100,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "frenzy_agatha_rig.glb",
+        "originLocation": "BottomCenterZ",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 100,
+        "animations": [
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|idle",
+            "source": "agatha_RIG_skeleton|idle"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|jog",
+            "source": "agatha_RIG_skeleton|jog"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|jumpscare1",
+            "source": "agatha_RIG_skeleton|jumpscare1"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|jumpscare2",
+            "source": "agatha_RIG_skeleton|jumpscare2"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|jumpscare3",
+            "source": "agatha_RIG_skeleton|jumpscare3"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|jumpscare4",
+            "source": "agatha_RIG_skeleton|jumpscare4"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|ref",
+            "source": "agatha_RIG_skeleton|ref"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|run",
+            "source": "agatha_RIG_skeleton|run"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|stunned",
+            "source": "agatha_RIG_skeleton|stunned"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|teleport",
+            "source": "agatha_RIG_skeleton|teleport"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|teleportend",
+            "source": "agatha_RIG_skeleton|teleportend"
+          },
+          {
+            "loop": true,
+            "name": "agatha_RIG_skeleton|walk",
+            "source": "agatha_RIG_skeleton|walk"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PathfindingObstacle",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "assets\\StartingCollisionArea.png",
+        "backFaceResourceName": "assets\\StartingCollisionArea.png",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "assets\\StartingCollisionArea.png",
+        "rightFaceResourceName": "assets\\StartingCollisionArea.png",
+        "topFaceResourceName": "assets\\StartingCollisionArea.png",
+        "bottomFaceResourceName": "assets\\StartingCollisionArea.png",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": true,
+        "leftFaceResourceRepeat": true,
+        "rightFaceResourceRepeat": true,
+        "topFaceResourceRepeat": true,
+        "bottomFaceResourceRepeat": true,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": false,
+        "isReceivingShadow": false
+      }
+    },
+    {
+      "assetStoreId": "bb892fc6b447f0e84df34322c1a272306fdf9d8fc072630362519156382eac67",
+      "name": "Wall",
+      "persistentUuid": "c42f09b9-8b63-4b63-be9e-1c8075487625",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 192,
+        "height": 192,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 192,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8b61f70c346bc7beab362011136f654cf9dd07806090310206529ee41471e084",
+      "name": "Door_Rotate_Square_C",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 168,
+        "height": 168,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Door Rotate Square C.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 168,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Close",
+            "source": "close"
+          },
+          {
+            "loop": false,
+            "name": "Open",
+            "source": "open"
+          },
+          {
+            "loop": false,
+            "name": "OpenAndClose",
+            "source": "open-and-close"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "86f99c838323295eb56081e7257f385aa3714606118121074e656fd6e2927634",
+      "name": "Wall_Doorway_Wide_Round",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Mesh",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 320,
+        "height": 320,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Doorway Wide Round.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 320,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ec10451605df34dbbae240b34d6b0b4beeaeb4e4631c480a0171a0ae199add10",
+      "name": "Wall_Doorway_Square",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 192,
+        "height": 192,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Doorway Square.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 192,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6a10209a715f134b97251e3bb4567d63379d3d8747cccb6c9868597b0af66fb8",
+      "name": "Key",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 58,
+        "height": 58,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Key.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 58,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8b61f70c346bc7beab362011136f654cf9dd07806090310206529ee41471e084",
+      "name": "InternalDoor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "IsOpen",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 168,
+        "height": 168,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Door Rotate Square C.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 168,
+        "animations": [
+          {
+            "loop": false,
+            "name": "Close",
+            "source": "close"
+          },
+          {
+            "loop": false,
+            "name": "Open",
+            "source": "open"
+          },
+          {
+            "loop": false,
+            "name": "OpenAndClose",
+            "source": "open-and-close"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "138cdb610a974da904b0256a9d35fe00c49dcd636a1287a0477c12ebb656d79e",
+      "name": "Roof_Flat_Center",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 160,
+        "height": 160,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 160,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "d707e37822d50f80000413a7e74efe1c1f1afdc15450a92eaa07518b651afdcc",
+      "name": "Wall_Window_Round",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 192,
+        "height": 192,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Wall Window Round.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 192,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "75adf9e4712988c979bfbcfb4e907c27334ae53bff867886010a098f7ef5753a",
+      "name": "Wall_Window_Wide_Square_Detailed",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 320,
+        "height": 320,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "KeepOriginal",
+        "modelResourceName": "assets\\windows.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 320,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "488f08ccf301d4db2c0e1612b09f025baaf46dc1a13e8bb33b891fcc1b4228c9",
+      "name": "Barricade_Doorway_C",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        },
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Box",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 140,
+        "height": 140,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Barricade Doorway C.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 140,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2756c89c5410e074dec7ea6be5791668c3d5e02d605dd390385bfdf8b0bb85d7",
+      "name": "Floor",
+      "persistentUuid": "cabee299-58ef-425d-b2ed-6dfcc26e86a7",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Static",
+          "bullet": false,
+          "fixedRotation": false,
+          "shape": "Mesh",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 160,
+        "height": 160,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Floor.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 160,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "0e73938d6e74a28a28ba760dd406c483a1917ff145eab7ef6be79fd39db85d5c",
+      "name": "Lamp_Round_Floor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "A3L",
+          "type": "A3F::A3L",
+          "Capability3d": "Object3D",
+          "Type": "Point Light",
+          "Color": "245;166;35",
+          "Intensity": 0.25,
+          "Distance": 250,
+          "SpotAngle": 45,
+          "SpotPenumbra": 0.25,
+          "CastShadow": false,
+          "ShadowMapSize": "512px",
+          "ShadowRange": 256,
+          "ShadowDepthBias": 0,
+          "ShadowNormalBias": 0,
+          "LightHelper": false,
+          "ShadowHelper": false
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 142,
+        "height": 142,
+        "isCastingShadow": true,
+        "isReceivingShadow": false,
+        "keepAspectRatio": true,
+        "materialType": "KeepOriginal",
+        "modelResourceName": "Lamp Round Table.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 142,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "lamp_light",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "A3L",
+          "type": "A3F::A3L",
+          "Capability3d": "Object3D",
+          "Type": "Spot Light",
+          "Color": "245;166;35",
+          "Intensity": 6,
+          "Distance": 200,
+          "SpotAngle": 45,
+          "SpotPenumbra": 1,
+          "CastShadow": true,
+          "ShadowMapSize": "512px",
+          "ShadowRange": 256,
+          "ShadowDepthBias": 0,
+          "ShadowNormalBias": 0,
+          "LightHelper": false,
+          "ShadowHelper": false
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "502b87ba2e0308373af082676fccce466f84e3b77182aac71480c48e0c5fc268",
+      "name": "Lamp_Round_Table",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 52,
+        "height": 52,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Lamp Round Table.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 52,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "797c17f7ce7790d0c4c7a16ebb35c512aee72f93f953c089c15827d6f90686e2",
+      "name": "Player",
+      "persistentUuid": "5e4dcf61-0816-4ad0-b667-7b5772995ca3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "HasKey",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "shape": "Capsule",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "density": 1,
+          "friction": 0.8,
+          "restitution": 0,
+          "linearDamping": 0.5,
+          "angularDamping": 0.9,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        },
+        {
+          "name": "PhysicsCharacter3D",
+          "type": "Physics3D::PhysicsCharacter3D",
+          "physics3D": "Physics3D",
+          "jumpHeight": 100,
+          "jumpSustainTime": 0.3,
+          "gravity": 1100,
+          "fallingSpeedMax": 450,
+          "forwardAcceleration": 420,
+          "forwardDeceleration": 850,
+          "forwardSpeedMax": 230,
+          "sidewaysAcceleration": 380,
+          "sidewaysDeceleration": 950,
+          "sidewaysSpeedMax": 190,
+          "slopeMaxAngle": 45,
+          "stairHeightMax": 25,
+          "shouldBindObjectAndForwardAngle": true,
+          "canBePushed": true
+        },
+        {
+          "name": "ShakeModel3D",
+          "type": "ShakeObject3D::ShakeModel3D",
+          "TranslationAmplitudeX": 0,
+          "TranslationAmplitudeY": 0,
+          "TranslationAmplitudeZ": 0,
+          "RotationAmplitudeX": 5,
+          "RotationAmplitudeY": 5,
+          "RotationAmplitudeZ": 5,
+          "Time": 5.00000000000364,
+          "Duration": 5.00000000000364,
+          "StartEasingDuration": 5.00000000000364,
+          "StopEasingDuration": 5.00000000000364,
+          "Frequency": 5.00000000000364,
+          "DeltaX": 5.00000000000364,
+          "DeltaY": 5.00000000000364,
+          "DeltaZ": 5.00000000000364,
+          "DeltaAngleX": 5.00000000000364,
+          "DeltaAngleY": 5.00000000000364,
+          "DeltaAngleZ": 5.00000000000364,
+          "NoiseTime": 5.00000000000364,
+          "Object3D": "Object3D",
+          "IsStartingAtCreation": false
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.1,
+        "depth": 156,
+        "height": 156,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "KeepOriginal",
+        "modelResourceName": "Male Casual.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 156,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Man_Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Man_Run"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Man_Jump"
+          }
+        ]
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "HeadPOS",
+      "persistentUuid": "85a65da2-1e1a-47fe-b8de-a9b0a9764abb",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 0,
+        "height": 0,
+        "depth": 0,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic",
+        "tint": "255;255;255",
+        "isCastingShadow": false,
+        "isReceivingShadow": false
+      }
+    },
+    {
+      "assetStoreId": "9f557b454f5d084c6e962f800b0c1943fe306c5e8cc7c70aafc3d35236944201",
+      "name": "Crate",
+      "persistentUuid": "7607c013-7ec1-4681-bc2c-89594d4014f2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics3D",
+          "type": "Physics3D::Physics3DBehavior",
+          "object3D": "Object3D",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "shape": "Box",
+          "meshShapeResourceName": "",
+          "shapeOrientation": "Z",
+          "shapeDimensionA": 0,
+          "shapeDimensionB": 0,
+          "shapeDimensionC": 0,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "shapeOffsetZ": 0,
+          "massCenterOffsetX": 0,
+          "massCenterOffsetY": 0,
+          "massCenterOffsetZ": 0,
+          "massOverride": 0,
+          "density": 1,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 17,
+          "masks": 17,
+          "showCollider": false,
+          "ragdollRole": "None",
+          "ragdollGroupTag": "",
+          "jointAutoWakeBodies": true,
+          "jointAutoStabilityPreset": "Stable",
+          "jointAutoBreakForce": 0,
+          "jointAutoBreakTorque": 0,
+          "jointEditorEnabled": false,
+          "jointEditorTargetObjectName": "",
+          "jointEditorType": "None",
+          "jointEditorAnchorOffsetX": 0,
+          "jointEditorAnchorOffsetY": 0,
+          "jointEditorAnchorOffsetZ": 0,
+          "jointEditorTargetAnchorOffsetX": 0,
+          "jointEditorTargetAnchorOffsetY": 0,
+          "jointEditorTargetAnchorOffsetZ": 0,
+          "jointEditorUseCustomAxis": false,
+          "jointEditorAxisX": 1,
+          "jointEditorAxisY": 0,
+          "jointEditorAxisZ": 0,
+          "jointEditorHingeMinAngle": -60,
+          "jointEditorHingeMaxAngle": 60,
+          "jointEditorDistanceMin": 0,
+          "jointEditorDistanceMax": 0,
+          "jointEditorPreviewEnabled": true,
+          "jointEditorPreviewSize": 8,
+          "meshColliderMode": "Auto",
+          "meshColliderBuildQuality": "Auto",
+          "meshColliderMaxTrianglesPerSubMesh": 0,
+          "meshColliderMaxTrianglesPerLeaf": 0,
+          "meshColliderActiveEdgeCosThresholdAngle": 2,
+          "meshColliderMaxConvexHullPoints": 1024,
+          "meshColliderSamplesPerMesh": 128,
+          "meshColliderMaxConvexRadius": 0,
+          "meshColliderMaxErrorConvexRadius": 0,
+          "meshColliderHullTolerance": 0
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 40,
+        "height": 40,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Crate.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 40,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Gun",
+      "persistentUuid": "798ab7e4-7810-4f36-a0c5-891f9c052af0",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "CurrentAmmo",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "MaxAmmo",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "reloadstate1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Variable",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "CurrentAmmo2",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "A3S",
+          "type": "A3F::A3S"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 1300,
+        "height": 1300,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "scene.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 180,
+        "rotationY": 0,
+        "rotationZ": 180,
+        "width": 1300,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Pistol_IDLE",
+            "source": "Pistol_IDLE"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_WALK",
+            "source": "Pistol_WALK"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_RUN",
+            "source": "Pistol_RUN"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_JUMP",
+            "source": "Pistol_JUMP"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_JUMP_START",
+            "source": "Pistol_JUMP_START"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_JUMP_FALL",
+            "source": "Pistol_JUMP_FALL"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_JUMP_END",
+            "source": "Pistol_JUMP_END"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_FIRE",
+            "source": "Pistol_FIRE"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_FIRE_ADS_SHOOT",
+            "source": "Pistol_FIRE_ADS_SHOOT"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_FIRE_ADS_SHOOT_EMPTY",
+            "source": "Pistol_FIRE_ADS_SHOOT_EMPTY"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_RELOAD",
+            "source": "Pistol_RELOAD"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_IDLE_EMPTY",
+            "source": "Pistol_IDLE_EMPTY"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_WALK_EMPTY",
+            "source": "Pistol_WALK_EMPTY"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_RUN_EMPTY",
+            "source": "Pistol_RUN_EMPTY"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_FIRE_EMPTY",
+            "source": "Pistol_FIRE_EMPTY"
+          },
+          {
+            "loop": false,
+            "name": "Pistol_JUMP_EMPTY",
+            "source": "Pistol_JUMP_EMPTY"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_JUMP_START_EMPTY",
+            "source": "Pistol_JUMP_START_EMPTY"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_JUMP_FALL_EMPTY",
+            "source": "Pistol_JUMP_FALL_EMPTY"
+          },
+          {
+            "loop": true,
+            "name": "Pistol_JUMP_END_EMPTY",
+            "source": "Pistol_JUMP_END_EMPTY"
+          }
+        ]
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CrossShair",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Crosshair",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Crosshair.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 58,
+                        "y": 50
+                      },
+                      {
+                        "x": 63,
+                        "y": 50
+                      },
+                      {
+                        "x": 63,
+                        "y": 55
+                      },
+                      {
+                        "x": 58,
+                        "y": 55
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "6d3db6815965204d2834e8cad91e32297418907dfed0ebd1e03104e0f2c6139c",
+      "name": "MuzzleFlash",
+      "type": "ParticleEmitter3D::ParticleEmitter3D",
+      "variant": "",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "A3L",
+          "type": "A3F::A3L",
+          "Capability3d": "Object3D",
+          "Type": "Point Light",
+          "Color": "255;255;64",
+          "Intensity": 1,
+          "Distance": 0,
+          "SpotAngle": 45,
+          "SpotPenumbra": 0.5,
+          "CastShadow": false,
+          "ShadowMapSize": "512px",
+          "ShadowRange": 256,
+          "ShadowDepthBias": 0,
+          "ShadowNormalBias": 0,
+          "LightHelper": false,
+          "ShadowHelper": false
+        }
+      ],
+      "content": {
+        "EndColor": "255;0;0",
+        "StartColor": "255;255;64",
+        "StartOpacity": 255,
+        "SpayConeAngle": 360,
+        "StartSizeMin": 32,
+        "StartSizeMax": 32,
+        "EndScale": 4,
+        "Flow": 2000,
+        "LifespanMin": 0.03,
+        "LifespanMax": 0.04,
+        "Duration": 0.05,
+        "StartSpeedMin": 1500,
+        "StartSpeedMax": 2000,
+        "ShouldAutodestruct": true,
+        "GravityTop": "Y-"
+      },
+      "childrenContent": {
+        "Particle": {
+          "adaptCollisionMaskAutomatically": true,
+          "updateIfNotVisible": false,
+          "animations": [
+            {
+              "name": "Image",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "LightGlow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Box",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": true,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Standard",
+        "tint": "255;255;255",
+        "isCastingShadow": true,
+        "isReceivingShadow": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "CenteredOnZ",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 1121.190399634285,
+        "height": 4632.9601287841815,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "house.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 6065.519987474494,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "PointLight",
+      "type": "Scene3D::PointLightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 128,
+        "height": 128,
+        "depth": 128,
+        "enabled": true,
+        "color": "255;255;255",
+        "intensity": 20,
+        "usePhysicalUnits": true,
+        "power": 2600,
+        "distance": 3000,
+        "decay": 6,
+        "castShadow": false,
+        "shadowQuality": "high",
+        "shadowBias": 0.001,
+        "shadowNormalBias": 0.02,
+        "shadowRadius": 2,
+        "shadowNear": 1,
+        "shadowFar": 2000,
+        "shadowAutoTuning": true
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "player",
+        "children": [
+          {
+            "objectName": "HeadPOS"
+          },
+          {
+            "objectName": "Player"
+          },
+          {
+            "objectName": "Gun"
+          },
+          {
+            "objectName": "MuzzleFlash"
+          },
+          {
+            "objectName": "CrossShair"
+          }
+        ]
+      },
+      {
+        "folderName": "Home",
+        "children": [
+          {
+            "objectName": "Lamp_Round_Table"
+          },
+          {
+            "objectName": "Lamp_Round_Floor"
+          },
+          {
+            "objectName": "Floor"
+          },
+          {
+            "objectName": "Wall_Window_Wide_Square_Detailed"
+          },
+          {
+            "objectName": "Wall_Window_Round"
+          },
+          {
+            "objectName": "Barricade_Doorway_C"
+          },
+          {
+            "objectName": "Roof_Flat_Center"
+          },
+          {
+            "objectName": "InternalDoor"
+          },
+          {
+            "objectName": "Key"
+          },
+          {
+            "objectName": "Wall_Doorway_Square"
+          },
+          {
+            "objectName": "Wall_Doorway_Wide_Round"
+          },
+          {
+            "objectName": "Door_Rotate_Square_C"
+          },
+          {
+            "objectName": "Wall"
+          },
+          {
+            "objectName": "Crate"
+          }
+        ]
+      },
+      {
+        "objectName": "Monster"
+      },
+      {
+        "objectName": "PathfindingObstacle"
+      },
+      {
+        "objectName": "lamp_light"
+      },
+      {
+        "objectName": "Box"
+      },
+      {
+        "objectName": "New3DModel"
+      },
+      {
+        "objectName": "PointLight"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "PathfindingObstacle"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneBackground"
+          },
+          "parameters": [
+            "",
+            "\"46;44;44\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeLayer"
+          },
+          "parameters": [
+            "Roof_Flat_Center",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "CrossShair",
+            "=",
+            "1280/2",
+            "=",
+            "720/2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PBRMaps3D::SetAlbedoMap"
+          },
+          "parameters": [
+            "",
+            "Floor",
+            "TCom_Pavement_PaintedConcrete3_1K_albedo.png",
+            "0.01",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PBRMaps3D::SetRoughnessMap"
+          },
+          "parameters": [
+            "",
+            "Floor",
+            "TCom_Pavement_PaintedConcrete3_1K_roughness.png",
+            "0.01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Monster",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Patrolling logic"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Monster"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "=",
+                "\"Patrolling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Monster",
+                "\"PositionChange\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "",
+                "kunal_acharjee-humming-sound-268134.mp3",
+                "2",
+                "yes",
+                "100",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Patrolling\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Monster",
+                "\"PositionChange\"",
+                "3",
+                ">="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Monster",
+                "Pathfinding",
+                "",
+                "Player.CenterX()",
+                "Player.CenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Monster",
+                "Animation",
+                "=",
+                "\"agatha_RIG_skeleton|walk\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PathfindingBehavior::PathFound"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding",
+                    "",
+                    "RandomInRange(Floor.BoundingBoxLeft(), Floor.BoundingBoxRight())",
+                    "RandomInRange(Ground.BoundingBoxTop(), Ground.BoundingBoxBottom())"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::PathFound"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "\"PositionChange\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Chasing logic"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Patrolling\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Monster"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Raycaster3D::RaycastWithAngle"
+              },
+              "parameters": [
+                "",
+                "MonsterVisionObstacles",
+                "Monster.CenterX()",
+                "Monster.CenterY()",
+                "Monster.Object3D::CenterZ()",
+                "Monster.Angle()",
+                "ToDeg(atan((Player.Object3D::CenterZ()-Monster.Object3D::CenterZ())/Monster.Distance(Player)))",
+                "700",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "=",
+                "\"Chasing\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "Raycaster3D::RaycastWithAngle"
+              },
+              "parameters": [
+                "",
+                "MonsterVisionObstacles",
+                "Monster.CenterX()",
+                "Monster.CenterY()",
+                "Monster.Object3D::CenterZ() + 1.5",
+                "Monster.Angle()",
+                "ToDeg(atan((Player.Object3D::CenterZ()-Monster.Object3D::CenterZ())/Monster.Distance(Player)))",
+                "700",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Monster",
+                "\"SearchPlayer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Monster",
+                "\"SearchPlayer\"",
+                "3",
+                ">"
+              ]
+            },
+            {
+              "type": {
+                "value": "Raycaster3D::RaycastWithAngle"
+              },
+              "parameters": [
+                "",
+                "MonsterVisionObstacles",
+                "Monster.CenterX()",
+                "Monster.CenterY()",
+                "Monster.Object3D::CenterZ() + 1.5",
+                "Monster.Angle()",
+                "ToDeg(atan((Player.Object3D::CenterZ()-Monster.Object3D::CenterZ())/Monster.Distance(Player)))",
+                "700",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Monster"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Monster",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "=",
+                "\"Patrolling\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Monster",
+                "Animation",
+                "=",
+                "\"agatha_RIG_skeleton|walk\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Monster",
+                "\"PositionChange\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Monster",
+                "Animation",
+                "=",
+                "\"agatha_RIG_skeleton|run\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+              },
+              "parameters": [
+                "Monster",
+                "Animation",
+                "=",
+                "1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardObject"
+              },
+              "parameters": [
+                "Monster",
+                "Player",
+                "180",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundChannel"
+              },
+              "parameters": [
+                "",
+                "2"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding",
+                    "",
+                    "Monster.X()",
+                    "Monster.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::Speed"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding",
+                    "350",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PathfindingBehavior::SetDestination"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Pathfinding",
+                    "",
+                    "Player.X()",
+                    "Player.Y()"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player dies"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics3D::CollisionStarted"
+              },
+              "parameters": [
+                "Player",
+                "Physics3D",
+                "Monster",
+                "Physics3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Jumpscare\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "door",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "aiGeneratedEventId": "01KGMP7G10HK87QXPZR11SQYQH",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Key",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Key",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "HasKey",
+                "True",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KGMP8SARTVQCNS2JCSR44YRZ",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "HasKey",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Raycaster3D::RaycastFromCameraCenter"
+              },
+              "parameters": [
+                "",
+                "Door_Rotate_Square_C",
+                "200",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Door_Rotate_Square_C",
+                "Animation",
+                "=",
+                "\"Open\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Door_Rotate_Square_C",
+                "Physics3D",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KGMQM1TQV3A4W79VG0WFZZ21",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "="
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicOnChannel"
+              },
+              "parameters": [
+                "",
+                "Noticed_sound.wav",
+                "1",
+                "yes",
+                "5",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject3D::ShakeModel3D::Shake"
+              },
+              "parameters": [
+                "Player",
+                "ShakeModel3D",
+                "2",
+                "0.1",
+                "0.1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KGMQM1TQV3A4W79VG0WFZZ21",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Monster",
+                "State",
+                "\"Chasing\"",
+                "!="
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicChannel"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KHRQXEGZRR0TRDJPPEANG567",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Raycaster3D::RaycastFromCameraCenter"
+              },
+              "parameters": [
+                "",
+                "InternalDoor",
+                "300",
+                "1000"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InternalDoor",
+                    "IsOpen",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "InternalDoor",
+                    "IsOpen",
+                    "True",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "InternalDoor",
+                    "Animation",
+                    "=",
+                    "\"Open\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "InternalDoor",
+                    "Physics3D",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "InternalDoor",
+                    "PathfindingObstacle",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "A3F::ChangeOpacityV2"
+                  },
+                  "parameters": [
+                    "",
+                    "lamp_light",
+                    "Object3D",
+                    "\"=\"",
+                    "0",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "player",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"w\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::SimulateForwardKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"s\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::SimulateBackwardKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Space\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "animation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics3D::PhysicsCharacter3D::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "CurrentAmmo",
+                        "<=",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "shotstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "reloadstate",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Walk\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_WALK\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::SetForwardSpeedMax"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D",
+                        "=",
+                        "200"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::IsOnFloor"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "shotstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "reloadstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_RUN\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Walk\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::SetForwardSpeedMax"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D",
+                        "=",
+                        "600"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::IsJumping"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Animation",
+                        "=",
+                        "\"Jump\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_JUMP\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "reloadstate",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "shotstate",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Physics3D::PhysicsCharacter3D::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PhysicsCharacter3D"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation",
+                    "=",
+                    "\"Pistol_IDLE\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "camera",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "A3F::LerpTowardChild"
+              },
+              "parameters": [
+                "",
+                "HeadPOS",
+                "Object3D",
+                "Player",
+                "Object3D",
+                "\"Head\"",
+                "1",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Player"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraFov"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CamFOV",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraFov"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CamFOV",
+                "\"Gun\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamFOV",
+                "=",
+                "lerp(CamFOV,45,0.08 * TimeDelta() * 60)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Player",
+                "=",
+                "CamX-90"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "HeadPOS.CenterX()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "HeadPOS.CenterY()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraRotationX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "(HeadPOS.Object3D::RotationY()+CamY*3)/4",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraAngle"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CamX",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MousePointerLock::RequestPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamX",
+                "+",
+                "MousePointerLock::MovementX()/10"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamY",
+                "-",
+                "MousePointerLock::MovementY()/10"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraZ"
+              },
+              "parameters": [
+                "",
+                "=",
+                "(HeadPOS.Object3D::CenterZ() + (Player.Object3D::CenterZ() + 80) * 3) / 4",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetLayerEffectParameter"
+              },
+              "parameters": [
+                "",
+                "\"Gun\"",
+                "\"sun\"",
+                "\"elevation\"",
+                "CamY"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetLayerEffectParameter"
+              },
+              "parameters": [
+                "",
+                "\"Gun\"",
+                "\"sun\"",
+                "\"rotation\"",
+                "CamX"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Gun",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationY"
+              },
+              "parameters": [
+                "Gun",
+                "Object3D",
+                "=",
+                "lerpAngle(Gun.Object3D::RotationY(), MousePointerLock::MovementX()/20-10,0.08 * TimeDelta() * 60)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationX"
+              },
+              "parameters": [
+                "Gun",
+                "Object3D",
+                "=",
+                "lerpAngle(Gun.Object3D::RotationX(), MousePointerLock::MovementY()/20,0.08 * TimeDelta() * 60)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "shotstate",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ammo",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gun",
+                "Animation",
+                "=",
+                "\"Pistol_FIRE\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ammo",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "shotstate",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "Gun",
+                "maxhammarback-glock19-18535.mp3",
+                "1",
+                "no",
+                "50",
+                "RandomFloatInRange(0.9,1.1)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Gun",
+                "5",
+                "5",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "CamFOV",
+                "=",
+                "RandomInRange(47,50)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "shotstate",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "ammo",
+                "<=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Gun",
+                "Animation",
+                "=",
+                "\"Pistol_FIRE_EMPTY\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "animation\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Gun",
+                "Animation",
+                "=",
+                "\"Pistol_RELOAD\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundOnChannel"
+              },
+              "parameters": [
+                "Gun",
+                "freesounds-4u-gun-reload-2-395177.mp3",
+                "1",
+                "no",
+                "50",
+                "RandomFloatInRange(0.9,1.1)"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "freesounds-4u-gun-reload-2-395177.mp3",
+                    "1",
+                    "no",
+                    "50",
+                    "RandomFloatInRange(0.9,1.1)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "reloadstate",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation",
+                    "=",
+                    "\"Pistol_IDLE\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "ammo",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "CurrentAmmo",
+                    "=",
+                    "Gun.MaxAmmo"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation",
+                    "\"Pistol_RELOAD\"",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "\"Pistol_RELOAD\"",
+                        "="
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation",
+                    "\"Pistol_FIRE\"",
+                    "="
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "\"Pistol_FIRE\"",
+                        "="
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ammo",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "reloadstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_RUN_EMPTY\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "reloadstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "KeyFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"LShift\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Physics3D::PhysicsCharacter3D::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_WALK_EMPTY\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "reloadstate",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Physics3D::PhysicsCharacter3D::IsMovingEvenALittle"
+                      },
+                      "parameters": [
+                        "Player",
+                        "PhysicsCharacter3D"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Gun",
+                        "Animation",
+                        "=",
+                        "\"Pistol_IDLE_EMPTY\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ammo",
+                    "<=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "reloadstate",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"r\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Gun",
+                    "Animation",
+                    "=",
+                    "\"Pistol_RELOAD\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "reloadstate",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 3000,
+      "camera3DFieldOfView": 60,
+      "camera3DNearPlaneDistance": 0.1,
+      "cameraType": "perspective",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "sun",
+          "doubleParameters": {
+            "distanceFromCamera": 1200,
+            "elevation": 85,
+            "frustumSize": 2500,
+            "intensity": 0.7,
+            "minimumShadowBias": 0.0002,
+            "rotation": 15
+          },
+          "stringParameters": {
+            "color": "120; 200; 220",
+            "shadowQuality": "high",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        },
+        {
+          "effectType": "Scene3D::AmbientLight",
+          "name": "AmbientLight",
+          "doubleParameters": {
+            "intensity": 0.38
+          },
+          "stringParameters": {
+            "color": "25; 80; 100"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::ExponentialFog",
+          "name": "FogExp",
+          "doubleParameters": {
+            "density": 0.0004
+          },
+          "stringParameters": {
+            "color": "10; 40; 55"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::LinearFog",
+          "name": "FogLinear",
+          "doubleParameters": {
+            "far": 2500,
+            "near": 700
+          },
+          "stringParameters": {
+            "color": "15; 50; 65"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::Bloom",
+          "name": "Bloom",
+          "doubleParameters": {
+            "intensity": 0.6,
+            "radius": 0.95,
+            "strength": 0.35,
+            "threshold": 0.82
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::Exposure",
+          "name": "Exposure",
+          "doubleParameters": {
+            "exposure": 1.08
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "disabled": true,
+          "effectType": "Scene3D::BrightnessAndContrast",
+          "name": "BrightnessContrast",
+          "doubleParameters": {
+            "brightness": -0.05,
+            "contrast": 0.18
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        },
+        {
+          "disabled": true,
+          "effectType": "Scene3D::HueAndSaturation",
+          "name": "HueSaturation",
+          "doubleParameters": {
+            "hue": 180,
+            "saturation": 1.15
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "MobileControls",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 128,
+      "ambientLightColorG": 128,
+      "ambientLightColorR": 128,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Gun",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::AmbientLight",
+          "name": "AmbientLight",
+          "doubleParameters": {
+            "intensity": 0.38
+          },
+          "stringParameters": {
+            "color": "25; 80; 100"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "sun",
+          "doubleParameters": {
+            "distanceFromCamera": 1200,
+            "elevation": 85,
+            "frustumSize": 2500,
+            "intensity": 0.7,
+            "minimumShadowBias": 0.0002,
+            "rotation": 15
+          },
+          "stringParameters": {
+            "color": "120; 200; 220",
+            "shadowQuality": "high",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "shair",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "A3L",
+      "type": "A3F::A3L"
+    },
+    {
+      "name": "A3S",
+      "type": "A3F::A3S"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LOD",
+      "type": "Scene3D::LOD"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Pathfinding",
+      "type": "PathfindingBehavior::PathfindingBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+    },
+    {
+      "name": "Physics3D",
+      "type": "Physics3D::Physics3DBehavior",
+      "gravityX": 0,
+      "gravityY": 0,
+      "gravityZ": -9.8,
+      "worldScale": 100
+    },
+    {
+      "name": "PhysicsCharacter3D",
+      "type": "Physics3D::PhysicsCharacter3D"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeModel3D",
+      "type": "ShakeObject3D::ShakeModel3D",
+      "EasingFactor": 358874684797066000000
+    }
+  ]
+}

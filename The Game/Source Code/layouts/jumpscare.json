@@ -1,0 +1,501 @@
+{
+  "b": 0,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Jumpscare",
+  "name": "Jumpscare",
+  "r": 0,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 0,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridDepth": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridOffsetZ": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false,
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "JumpscareDelay",
+      "type": "number",
+      "value": 0
+    }
+  ],
+  "instances": [
+    {
+      "angle": 89,
+      "customSize": true,
+      "depth": 842,
+      "height": 842,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Monster",
+      "persistentUuid": "b2a6d212-84f3-4aaf-80d5-baf12b591165",
+      "rotationY": -90,
+      "width": 842,
+      "x": 666,
+      "y": 513,
+      "z": -487,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "5145005bf545fca26317cae9ed244fbf95f38a4242ca09f20f7a04e2de71fe05",
+      "name": "Monster",
+      "type": "Scene3D::Model3DObject",
+      "variables": [
+        {
+          "name": "State",
+          "type": "string",
+          "value": "Chasing"
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.05,
+          "IsFlashing": false,
+          "FlashDuration": 0
+        },
+        {
+          "name": "ShakeModel3D",
+          "type": "ShakeObject3D::ShakeModel3D",
+          "TranslationAmplitudeX": 0,
+          "TranslationAmplitudeY": 0,
+          "TranslationAmplitudeZ": 0,
+          "RotationAmplitudeX": 5,
+          "RotationAmplitudeY": 5,
+          "RotationAmplitudeZ": 5,
+          "Time": 5.00000000000364,
+          "Duration": 5.00000000000364,
+          "StartEasingDuration": 5.00000000000364,
+          "StopEasingDuration": 5.00000000000364,
+          "Frequency": 5.00000000000364,
+          "DeltaX": 5.00000000000364,
+          "DeltaY": 5.00000000000364,
+          "DeltaZ": 5.00000000000364,
+          "DeltaAngleX": 5.00000000000364,
+          "DeltaAngleY": 5.00000000000364,
+          "DeltaAngleZ": 5.00000000000364,
+          "NoiseTime": 5.00000000000364,
+          "Object3D": "Object3D",
+          "IsStartingAtCreation": false
+        }
+      ],
+      "content": {
+        "centerLocation": "ObjectCenter",
+        "crossfadeDuration": 0.10000000149011612,
+        "depth": 126,
+        "height": 83,
+        "isCastingShadow": true,
+        "isReceivingShadow": true,
+        "keepAspectRatio": false,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Demon.glb",
+        "originLocation": "BottomCenterZ",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 79,
+        "animations": [
+          {
+            "loop": true,
+            "name": "Idle",
+            "source": "Idle"
+          },
+          {
+            "loop": true,
+            "name": "Walk",
+            "source": "Walk"
+          },
+          {
+            "loop": true,
+            "name": "Run",
+            "source": "Run"
+          },
+          {
+            "loop": false,
+            "name": "Duck",
+            "source": "Duck"
+          },
+          {
+            "loop": false,
+            "name": "Jump",
+            "source": "Jump"
+          },
+          {
+            "loop": false,
+            "name": "Punch",
+            "source": "Punch"
+          },
+          {
+            "loop": false,
+            "name": "Death",
+            "source": "Death"
+          },
+          {
+            "loop": true,
+            "name": "JumpIdle",
+            "source": "Jump_Idle"
+          },
+          {
+            "loop": false,
+            "name": "JumpLand",
+            "source": "Jump_Land"
+          },
+          {
+            "loop": false,
+            "name": "HitReact",
+            "source": "HitReact"
+          },
+          {
+            "loop": false,
+            "name": "Wave",
+            "source": "Wave"
+          },
+          {
+            "loop": false,
+            "name": "Weapon",
+            "source": "Weapon"
+          },
+          {
+            "loop": false,
+            "name": "Yes",
+            "source": "Yes"
+          },
+          {
+            "loop": false,
+            "name": "No",
+            "source": "No"
+          }
+        ]
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Monster"
+      }
+    ]
+  },
+  "events": [
+    {
+      "aiGeneratedEventId": "01KHRQ2AXE6F14C8M2WF1T7KF4",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "JumpscareDelay",
+            "=",
+            "RandomFloatInRange(0.5, 2)"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"JumpscareTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "Monster"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KHRQ2AXE6F14C8M2WF1T7KF4",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"JumpscareTimer\"",
+            "JumpscareDelay",
+            ">="
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "Monster",
+            "Flash",
+            "1.5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "jumpscare_sound.mp3",
+            "no",
+            "5",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Flash::Flash::Stop"
+          },
+          "parameters": [
+            "Monster",
+            "Flash",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Scene\"",
+            "no"
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KHRQCHG92TFXET0YXYRR1T0N",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Flash::Flash::IsFlashing"
+          },
+          "parameters": [
+            "Monster",
+            "Flash",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShakeObject3D::ShakeModel3D::SetFrequency"
+          },
+          "parameters": [
+            "Monster",
+            "ShakeModel3D",
+            "=",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ShakeObject3D::ShakeModel3D::StartShaking"
+          },
+          "parameters": [
+            "Monster",
+            "ShakeModel3D",
+            "0.1",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "aiGeneratedEventId": "01KHRQCHG92TFXET0YXYRR1T0N",
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Flash::Flash::IsFlashing"
+          },
+          "parameters": [
+            "Monster",
+            "Flash",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShakeObject3D::ShakeModel3D::StopShaking"
+          },
+          "parameters": [
+            "Monster",
+            "ShakeModel3D",
+            "0.1",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "LOD",
+      "type": "Scene3D::LOD"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeModel3D",
+      "type": "ShakeObject3D::ShakeModel3D",
+      "EasingFactor": 358874684797066000000
+    }
+  ]
+}

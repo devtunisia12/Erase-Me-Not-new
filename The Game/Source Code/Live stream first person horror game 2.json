@@ -1,0 +1,810 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 269,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "16225b80-c7d7-41db-ac4e-aa8fbe659215",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "starting-first-person-horror",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "version": "1.0.0",
+    "name": "Erase Me Not",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [
+      {
+        "extension": "GDevelopEditor",
+        "property": "assetFolders",
+        "value": "{\"version\":1,\"rootFolderIds\":[],\"folders\":[]}"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/StartingBackground.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"ed6d270d-ecc3-4bbe-8c4a-300f23cedb62\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "assets\\StartingBackground.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingWall.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"e30d820f-a6ef-4bb5-a6e5-54acb95e5e66\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "assets\\StartingWall.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingGround.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"4154bb85-0f55-471b-ab07-c50bd259177e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "assets\\StartingGround.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StarterPushable.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"de96f889-5ceb-494c-be40-3541f556ad91\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "assets\\StarterPushable.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Flat dark joystick border.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"97911ca1-1ff8-43c5-b68f-f39e426bf2ab\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Flat dark joystick border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/1db606cabd7372d1494ba5934bc25bcdd72f5a213c4a27509be57c3f4d5aecca_Flat dark joystick border.png",
+          "name": "Flat dark joystick border.png"
+        }
+      },
+      {
+        "file": "assets/Flat dark joystick thumb.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"c15bd097-3a72-447b-8c8f-3f0599311b2d\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Flat dark joystick thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Multitouch joysticks/10167ade22c4a6b48324e6c1d1bd6dc74179d7bed0775890903f418b4a05c8a1_Flat dark joystick thumb.png",
+          "name": "Flat dark joystick thumb.png"
+        }
+      },
+      {
+        "file": "assets/Top arrow button.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"7d5368a0-878c-4d7a-8866-9a12532f135e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Top arrow button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Dark/e3943e1b23ceb90f00fc5e7c0481c5147b983fdc5397fb3690e102e53ce72d4f_Top arrow button.png",
+          "name": "Top arrow button.png"
+        }
+      },
+      {
+        "file": "assets/StarterToggle_Keyboard.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"12bfd674-fa8f-4c72-9201-fa92d72eaa4c\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "StarterToggle_Keyboard.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/StarterToggle_Touch.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"6ea264a3-2900-4525-8772-9ad9cad8ca0e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "StarterToggle_Touch.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/starting_unit_orange.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"390787ae-fccd-4e8e-81f6-655dfac03cac\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "assets\\starting_unit_orange.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/StartingCollisionArea.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"2820242f-999b-49ce-8d91-c8668a54b534\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "assets\\StartingCollisionArea.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Demon.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"7bae6f07-0cae-4e98-b358-7596ac4ef939\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Demon.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Colorful Monsters/Standing/e15b1d4a1a59fcd7a6d6881175723d57d69272ddfa467b2c0473829bf3e82f2b_Demon.glb",
+          "name": "Demon.glb"
+        }
+      },
+      {
+        "file": "assets/Wall.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"9042d376-ad06-4f30-b4fe-a9f6a7c72a1b\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Wall.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/9f8092915c6afeb5b0c8a97bf363b5f2308d0e02cfae51af70a9712f7d57aa70_Wall.glb",
+          "name": "Wall.glb"
+        }
+      },
+      {
+        "file": "assets/Door Rotate Square C.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"c50eb351-832f-4493-b352-c7fea93478d4\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Door Rotate Square C.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/Door/0481b12476749c8a27dd76de910f4ebb7b70fd419e5dabea092cff66b9bdac82_Door Rotate Square C.glb",
+          "name": "Door Rotate Square C.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Doorway Wide Round.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"ad56f966-3116-4011-9dc5-42691070081a\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Wall Doorway Wide Round.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/af3ce5a5bf3de9e99de3e6c5ad1acc9091b77c03a9987ef5b1570251f0f4785f_Wall Doorway Wide Round.glb",
+          "name": "Wall Doorway Wide Round.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Doorway Square.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"5b6b39a1-5882-49b0-a69b-a857ffb14513\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Wall Doorway Square.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/1c5955adc6ed93b2850fee15706b8dcbc8af57db2f780833e3f0b54dff39a633_Wall Doorway Square.glb",
+          "name": "Wall Doorway Square.glb"
+        }
+      },
+      {
+        "file": "assets/Grass Texture 1.jpg",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"7a62affe-7a31-4f25-b4ed-cd3828434694\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Grass Texture 1.jpg",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Cubes/9f09e03c5ab3fdd8a96e1858ec61cbbea0bff59427f365f9725f6483c4438f9a_Grass Texture 1.jpg",
+          "name": "Grass Texture 1.jpg"
+        }
+      },
+      {
+        "file": "assets/Key.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"8dedc7f1-4a77-4743-b017-ef0a40be262d\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Key.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Game Kit/Collectable/6fdc3add19bc8898932c29658e9149e980ea3ae3ba2d6e1b65a410b373aecc7e_Key.glb",
+          "name": "Key.glb"
+        }
+      },
+      {
+        "file": "assets/Cornfield Chase.aac",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"500b240c-eb3c-4ae0-a142-4127ed65f13d\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "chase_music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/audio/Noticed_sound.wav",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"22efc1f9-de78-4c49-9562-a232c4900598\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "Noticed_sound.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/046510c8-02ee-4a74-b3ba-d1219cb60f10/resources/1cc058890c75a950d9c23d7dc9241e4eff271b648f4f627b6e8d2d43b5d225bf-Noticed_sound.wav",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/audio/Jumpscare_sound (1).wav",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"5f5bc93b-8e40-458a-93a2-a3083ecec84c\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "jumpscare_sound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Roof Flat Center.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"c4a6fa06-8462-49fb-b880-5014e46e95ae\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Roof Flat Center.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Floor/b62252602b71a3b7373d6b22f1430110acadf4f6d68943872d0ed9128a491fe0_Roof Flat Center.glb",
+          "name": "Roof Flat Center.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Window Round.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"db2fe48a-5a0d-4925-9ec0-37792bad144f\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Wall Window Round.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/e1c4818d94cc2174ef8079267657c33e41fe1624f0b1a402cbef93bde9e8be75_Wall Window Round.glb",
+          "name": "Wall Window Round.glb"
+        }
+      },
+      {
+        "file": "assets/Wall Window Wide Square Detailed.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"30609327-fbc4-4eb2-85bf-53d86290e75c\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Wall Window Wide Square Detailed.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/7dcfe9248ab2bc3a9fff169a95d517d26ead7fd0f1740c735431734dae682d66_Wall Window Wide Square Detailed.glb",
+          "name": "Wall Window Wide Square Detailed.glb"
+        }
+      },
+      {
+        "file": "assets/Barricade Doorway C.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"5aad9c86-85f5-434f-bdca-fe337654d760\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Barricade Doorway C.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Wall/08878d9c932d1e832045abc1ae64b0d062b730093538d25adc0f6986d893b0c5_Barricade Doorway C.glb",
+          "name": "Barricade Doorway C.glb"
+        }
+      },
+      {
+        "file": "assets/Floor.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"f5e105c0-c3d9-477d-b12e-18dfa6c1af8c\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Floor.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Survival Building/Floor/3ef35675c61061da9477b48b5f199eb444cc2b1e69ca7095a9ce860930edcfcb_Floor.glb",
+          "name": "Floor.glb"
+        }
+      },
+      {
+        "file": "assets/windows.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"5f56c8aa-0e7c-49ec-b7af-e3e7d5867c53\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "assets\\windows.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Wall.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"9042d376-ad06-4f30-b4fe-a9f6a7c72a1b\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "assets\\Wall.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Front.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"6564dbd2-951a-4f39-956e-0e8cd915c7b8\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Back.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"2e8f1914-23cf-4fb3-88b4-da95bb4443b3\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Top.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"b18cdda2-851d-4473-93ae-575343bd4ad0\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Top.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Bottom.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"0a7a5c0d-fc9b-45c3-8738-89037920f970\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Bottom.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Left.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"91051e90-8c9b-4b7a-8f08-4f7c7feb5f93\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_04-512x512_Right.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"a4f1e148-a1e7-4f82-8b13-0ea14feffd28\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_04-512x512_Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Lamp Round Floor.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"7987dfe3-cd19-4a12-b8e5-278622cbb0c0\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Lamp Round Floor.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/device/b2fa8a67c0a58726873ff9c946c3d613f6ed5839150d95f9f675aa5ded30a10f_Lamp Round Floor.glb",
+          "name": "Lamp Round Floor.glb"
+        }
+      },
+      {
+        "file": "assets/Lamp Round Table.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"5fff8a8f-0b82-454b-9b42-d2c2eb157435\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Lamp Round Table.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/device/ca569ee3c64eece9a1b743a9c0978158c532393b194c4bc946163dd30f7a49b5_Lamp Round Table.glb",
+          "name": "Lamp Round Table.glb"
+        }
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_posz.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"34219207-5b10-4fb9-96f4-0a3edd99616e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_posz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_negz.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"a3f64192-f0b8-416d-a864-b760ffa0dd3b\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_negz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_negy.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"485fd47c-c566-4fc0-aa44-96b85765ea6d\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_negy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_posy.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"d95f69df-f31d-4a2b-91b3-710b8ed2c5cd\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_posy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_negx.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"e36cfbcf-d3fe-4091-a25a-5fa35546a3d6\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_negx.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_15-512x512_posx.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"c993bc94-befe-445e-9c0a-8c6e21ae6877\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_15-512x512_posx.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Male Casual.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"40049c89-8924-4153-97df-9f0e47a7be06\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Male Casual.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/Character/9e45e58c10682186015966e9739499ac835b807ab0cb20be0f648458ecf44a0d_Male Casual.glb",
+          "name": "Male Casual.glb"
+        }
+      },
+      {
+        "file": "frenzy_agatha_rig.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"69bd8c3e-a6e6-49f0-8647-eecbc206c47c\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "frenzy_agatha_rig.glb",
+        "userAdded": false
+      },
+      {
+        "file": "kunal_acharjee-humming-sound-268134.mp3",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"f802728e-5c78-45e3-9a2b-d8d67e16156e\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "kunal_acharjee-humming-sound-268134.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Crate.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"74b4a2eb-2b37-497a-b0ca-5fd017e8fae3\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "Crate.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Platformer Pack/16e29df00ed555ae794ad29ddcd0b7e87a8db7d2647fdbeee5e9b96d2dc1e698_Crate.glb",
+          "name": "Crate.glb"
+        }
+      },
+      {
+        "file": "gun.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"897184a8-0689-4613-9b3f-9c3a3d76c904\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "gun.glb",
+        "userAdded": false
+      },
+      {
+        "file": "scene.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"7d65a7fc-7541-4436-808c-83104c9ad93e\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "scene.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Crosshair.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Crosshair.png\",\"extension\":\".png\",\"gdevelopAssetGuid\":\"721eb54a-b231-4bbc-9eba-582047dc6820\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Crosshair.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "maxhammarback-glock19-18535.mp3",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"7a11d673-0e55-49c0-a295-a57188d42477\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "maxhammarback-glock19-18535.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/LightGlow.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"bde7eeda-565c-4d4a-88a4-3267eb35ad73\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "LightGlow.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Particles/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
+          "name": "LightGlow.png"
+        }
+      },
+      {
+        "file": "freesounds-4u-gun-reload-2-395177.mp3",
+        "kind": "audio",
+        "metadata": "{\"gdevelopAssetGuid\":\"e57cb068-1ca7-485a-951b-5c0b8ab78931\",\"assetImportSettings\":{\"importerId\":\"audio-basic\",\"options\":{\"streaming\":false}}}",
+        "name": "freesounds-4u-gun-reload-2-395177.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_posz.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"b8ecc2fe-e61c-4b63-838b-3a7e3093567e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_posz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_negz.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"e63e6b12-6c9b-410a-80c6-221a04b30bd4\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_negz.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_posy.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"0fa0a0ff-c1d7-4ca0-a478-a43322eee0f6\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_posy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_negy.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"6b847b8e-c2c2-4b2f-a97a-3f623f187f77\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_negy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_negx.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"2964ebcb-0b8d-4e87-b41c-e7415b4437f7\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_negx.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Cubemap_Sky_11-512x512_posx.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"9f879271-9044-4ca8-ac5d-11ab37ee46f7\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "Cubemap_Sky_11-512x512_posx.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../../Music/mario/mario/Cubemap_Sky_04-512x512_Front.png",
+        "kind": "image",
+        "metadata": "{\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}},\"gdevelopAssetGuid\":\"f5347d4a-c34b-4a18-b109-0631bb7310da\"}",
+        "name": "..\\..\\..\\..\\..\\Music\\mario\\mario\\Cubemap_Sky_04-512x512_Front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "front.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"d62ea945-b2f1-47f3-b81e-9e6be0739ecc\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "front.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "back.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"b90474cd-dc36-453c-96f0-03eb142f6293\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "top.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"3f394ef9-737d-4587-a783-a39a4e02c2a3\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "top.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "bottom.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"9ec5180f-0650-4fc2-ba03-57bf88ab3f01\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "bottom.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "left.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"cd5364f6-f219-49ac-ae0b-d549d745702e\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "left.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "right.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"25cab69e-4d79-46fd-9f13-0aba7d0a41a8\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TCom_Pavement_PaintedConcrete3_1K_albedo.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"60409433-c72a-47b9-9122-92e4209c2a30\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "TCom_Pavement_PaintedConcrete3_1K_albedo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "TCom_Pavement_PaintedConcrete3_1K_roughness.png",
+        "kind": "image",
+        "metadata": "{\"gdevelopAssetGuid\":\"4408f9dc-5929-4518-913c-9bc218d5cabd\",\"assetImportSettings\":{\"importerId\":\"image-basic\",\"options\":{\"smoothing\":true}}}",
+        "name": "TCom_Pavement_PaintedConcrete3_1K_roughness.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "monster_house_plus_inside_by_me.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"652b1b78-69d6-4750-92d6-21a425f56ae8\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "monster_house_plus_inside_by_me.glb",
+        "userAdded": false
+      },
+      {
+        "file": "cabin_inside_and_out_model_free_to_use.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"b04833f2-d44f-452d-adb3-3e3f7b5520ef\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "cabin_inside_and_out_model_free_to_use.glb",
+        "userAdded": false
+      },
+      {
+        "file": "house.glb",
+        "kind": "model3D",
+        "metadata": "{\"gdevelopAssetGuid\":\"215ebe3c-ab0a-4f10-94f7-fd35792645c1\",\"assetImportSettings\":{\"importerId\":\"file-basic\",\"options\":{}}}",
+        "name": "house.glb",
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/jumpscare"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/physicscharacter3dkeymapper"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritemultitouchjoystick"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firstpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousepointerlock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritetoggleswitch"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/raycaster3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/a3f"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/toonshader"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/particleemitter3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pbrmaps3d"
+    }
+  ],
+  "externalLayouts": []
+}
